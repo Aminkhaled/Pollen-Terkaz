@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Blog-post </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="vendor/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://md-aqil.github.io/images/swiper.min.css">
+    <link rel="stylesheet" href="vendor/css/blog-post.css">
+    <link rel="stylesheet" href="vendor/css/style.css">
+</head>
+<body class="blog-post">
+<div class="loader">
+    <svg version="1.1" id="L2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+         viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+<circle fill="none" stroke="#fff" stroke-width="4" stroke-miterlimit="10" cx="50" cy="50" r="48"/>
+        <line fill="none" stroke-linecap="round" stroke="#fff" stroke-width="4" stroke-miterlimit="10" x1="50" y1="50" x2="85" y2="50.5">
+  <animateTransform
+          attributeName="transform"
+          dur="2s"
+          type="rotate"
+          from="0 50 50"
+          to="360 50 50"
+          repeatCount="indefinite" />
+</line>
+        <line fill="none" stroke-linecap="round" stroke="#fff" stroke-width="4" stroke-miterlimit="10" x1="50" y1="50" x2="49.5" y2="74">
+  <animateTransform
+          attributeName="transform"
+          dur="15s"
+          type="rotate"
+          from="0 50 50"
+          to="360 50 50"
+          repeatCount="indefinite" />
+</line>
+</svg>
+</div>
+
+
+    <article class="c-article">
+        <div class="c-article__header">
+            <img src="vendor/img/blog-post.jpeg" alt="" class="c-article__image">
+        </div>
+
+        <div class="c-article__body">
+            <h1 class="c-title">
+                Caramel au beurre salé
+            </h1>
+
+            <div class="c-content">
+                <p class="c-content__paragraph">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat les crêpes c'est la vie culpa dolor fugiat error veritatis sit voluptatibus? Le caramel au beurre salé mec, saepe impedit porro numquam dolores quos maiores architecto vero. Quas.
+                </p>
+
+                <p class="c-content__paragraph">
+                    Quasi, saepe au chocolat aussi ça tue numquam dolores quos maiores architecto vero. Quas.
+                </p>
+            </div>
+        </div>
+    </article>
+
+
+
+<script src="vendor/js/jquery.js"></script>
+<script src="vendor/js/propper.js"></script>
+<script src="vendor/js/bootstrap.min.js"></script>
+
+<script src="vendor/js/custom.js"></script>
+<script>
+
+    document.onreadystatechange = function() {
+        if (document.readyState !== "complete") {
+            document.querySelector("body").style.visibility = "hidden";
+            document.querySelector(".loader").style.visibility = "visible";
+        } else {
+            document.querySelector(".loader").style.display = "none";
+            document.querySelector("body").style.visibility = "visible";
+        }
+    };
+
+</script>
+</body>
+</html>
